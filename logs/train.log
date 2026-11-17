@@ -1,0 +1,448 @@
+train clips 73382 (90.0 h), val urdu 2512, val english 150, device mps
+parameters 3099262
+epoch 0 step 100/1372 loss 3.173 speed 758x realtime
+epoch 0 step 200/1372 loss 3.109 speed 714x realtime
+epoch 0 step 300/1372 loss 3.087 speed 698x realtime
+epoch 0 step 400/1372 loss 3.069 speed 682x realtime
+epoch 0 step 500/1372 loss 3.049 speed 687x realtime
+epoch 0 step 600/1372 loss 3.008 speed 681x realtime
+epoch 0 step 700/1372 loss 2.950 speed 644x realtime
+epoch 0 step 800/1372 loss 2.884 speed 629x realtime
+epoch 0 step 900/1372 loss 2.818 speed 620x realtime
+epoch 0 step 1000/1372 loss 2.756 speed 603x realtime
+epoch 0 step 1100/1372 loss 2.699 speed 599x realtime
+epoch 0 step 1200/1372 loss 2.646 speed 595x realtime
+epoch 0 step 1300/1372 loss 2.597 speed 583x realtime
+epoch 0 step 1400/1372 loss 2.551 speed 580x realtime
+{'epoch': 0, 'loss': 2.5396, 'per_ur': 0.5059, 'per_en': 0.5056, 'minutes': 9.5, 'lr': 0.0003369673237847944}
+epoch 1 step 100/1372 loss 1.913 speed 480x realtime
+epoch 1 step 200/1372 loss 1.896 speed 493x realtime
+epoch 1 step 300/1372 loss 1.874 speed 493x realtime
+epoch 1 step 400/1372 loss 1.855 speed 466x realtime
+epoch 1 step 500/1372 loss 1.841 speed 456x realtime
+epoch 1 step 600/1372 loss 1.826 speed 459x realtime
+epoch 1 step 700/1372 loss 1.813 speed 461x realtime
+epoch 1 step 800/1372 loss 1.797 speed 467x realtime
+epoch 1 step 900/1372 loss 1.782 speed 461x realtime
+epoch 1 step 1000/1372 loss 1.766 speed 462x realtime
+epoch 1 step 1100/1372 loss 1.753 speed 465x realtime
+epoch 1 step 1200/1372 loss 1.739 speed 462x realtime
+epoch 1 step 1300/1372 loss 1.726 speed 461x realtime
+epoch 1 step 1400/1372 loss 1.714 speed 461x realtime
+{'epoch': 1, 'loss': 1.7093, 'per_ur': 0.3909, 'per_en': 0.374, 'minutes': 11.9, 'lr': 0.000954783466126647}
+epoch 2 step 100/1372 loss 1.487 speed 483x realtime
+epoch 2 step 200/1372 loss 1.507 speed 448x realtime
+epoch 2 step 300/1372 loss 1.500 speed 433x realtime
+epoch 2 step 400/1372 loss 1.492 speed 445x realtime
+epoch 2 step 500/1372 loss 1.479 speed 456x realtime
+epoch 2 step 600/1372 loss 1.470 speed 448x realtime
+epoch 2 step 700/1372 loss 1.461 speed 446x realtime
+epoch 2 step 800/1372 loss 1.454 speed 441x realtime
+epoch 2 step 900/1372 loss 1.448 speed 436x realtime
+epoch 2 step 1000/1372 loss 1.442 speed 438x realtime
+epoch 2 step 1100/1372 loss 1.434 speed 432x realtime
+epoch 2 step 1200/1372 loss 1.426 speed 428x realtime
+epoch 2 step 1300/1372 loss 1.417 speed 431x realtime
+epoch 2 step 1400/1372 loss 1.408 speed 426x realtime
+{'epoch': 2, 'loss': 1.4049, 'per_ur': 0.3274, 'per_en': 0.2999, 'minutes': 12.7, 'lr': 0.0014381293060937003}
+epoch 3 step 100/1372 loss 1.274 speed 391x realtime
+epoch 3 step 200/1372 loss 1.290 speed 407x realtime
+epoch 3 step 300/1372 loss 1.292 speed 388x realtime
+epoch 3 step 400/1372 loss 1.283 speed 365x realtime
+epoch 3 step 500/1372 loss 1.276 speed 358x realtime
+epoch 3 step 600/1372 loss 1.274 speed 357x realtime
+epoch 3 step 700/1372 loss 1.266 speed 362x realtime
+epoch 3 step 800/1372 loss 1.260 speed 376x realtime
+epoch 3 step 900/1372 loss 1.261 speed 384x realtime
+epoch 3 step 1000/1372 loss 1.254 speed 391x realtime
+epoch 3 step 1100/1372 loss 1.249 speed 394x realtime
+epoch 3 step 1200/1372 loss 1.242 speed 399x realtime
+epoch 3 step 1300/1372 loss 1.236 speed 406x realtime
+epoch 3 step 1400/1372 loss 1.231 speed 407x realtime
+{'epoch': 3, 'loss': 1.2295, 'per_ur': 0.2916, 'per_en': 0.24, 'minutes': 13.3, 'lr': 0.0014983242606856734}
+epoch 4 step 100/1372 loss 1.139 speed 491x realtime
+epoch 4 step 200/1372 loss 1.144 speed 437x realtime
+epoch 4 step 300/1372 loss 1.134 speed 431x realtime
+epoch 4 step 400/1372 loss 1.143 speed 443x realtime
+epoch 4 step 500/1372 loss 1.134 speed 447x realtime
+epoch 4 step 600/1372 loss 1.133 speed 446x realtime
+epoch 4 step 700/1372 loss 1.131 speed 445x realtime
+epoch 4 step 800/1372 loss 1.131 speed 441x realtime
+epoch 4 step 900/1372 loss 1.130 speed 434x realtime
+epoch 4 step 1000/1372 loss 1.127 speed 440x realtime
+epoch 4 step 1100/1372 loss 1.124 speed 440x realtime
+epoch 4 step 1200/1372 loss 1.122 speed 441x realtime
+epoch 4 step 1300/1372 loss 1.119 speed 445x realtime
+epoch 4 step 1400/1372 loss 1.116 speed 449x realtime
+{'epoch': 4, 'loss': 1.1151, 'per_ur': 0.2622, 'per_en': 0.2285, 'minutes': 12.1, 'lr': 0.0014864104852003442}
+epoch 5 step 100/1372 loss 1.070 speed 524x realtime
+epoch 5 step 200/1372 loss 1.072 speed 472x realtime
+epoch 5 step 300/1372 loss 1.064 speed 463x realtime
+epoch 5 step 400/1372 loss 1.060 speed 486x realtime
+epoch 5 step 500/1372 loss 1.057 speed 472x realtime
+epoch 5 step 600/1372 loss 1.056 speed 492x realtime
+epoch 5 step 700/1372 loss 1.054 speed 486x realtime
+epoch 5 step 800/1372 loss 1.052 speed 494x realtime
+epoch 5 step 900/1372 loss 1.049 speed 490x realtime
+epoch 5 step 1000/1372 loss 1.049 speed 490x realtime
+epoch 5 step 1100/1372 loss 1.049 speed 498x realtime
+epoch 5 step 1200/1372 loss 1.047 speed 492x realtime
+epoch 5 step 1300/1372 loss 1.044 speed 490x realtime
+epoch 5 step 1400/1372 loss 1.041 speed 487x realtime
+{'epoch': 5, 'loss': 1.0401, 'per_ur': 0.252, 'per_en': 0.2024, 'minutes': 11.3, 'lr': 0.0014632258477361743}
+epoch 6 step 100/1372 loss 1.014 speed 463x realtime
+epoch 6 step 200/1372 loss 0.999 speed 473x realtime
+epoch 6 step 300/1372 loss 0.993 speed 461x realtime
+epoch 6 step 400/1372 loss 0.991 speed 439x realtime
+epoch 6 step 500/1372 loss 0.991 speed 451x realtime
+epoch 6 step 600/1372 loss 0.991 speed 433x realtime
+epoch 6 step 700/1372 loss 0.992 speed 430x realtime
+epoch 6 step 800/1372 loss 0.990 speed 420x realtime
+epoch 6 step 900/1372 loss 0.989 speed 424x realtime
+epoch 6 step 1000/1372 loss 0.991 speed 428x realtime
+epoch 6 step 1100/1372 loss 0.991 speed 425x realtime
+epoch 6 step 1200/1372 loss 0.990 speed 426x realtime
+epoch 6 step 1300/1372 loss 0.990 speed 430x realtime
+epoch 6 step 1400/1372 loss 0.989 speed 434x realtime
+{'epoch': 6, 'loss': 0.9874, 'per_ur': 0.235, 'per_en': 0.1907, 'minutes': 12.6, 'lr': 0.0014291251937478054}
+epoch 7 step 100/1372 loss 0.966 speed 562x realtime
+epoch 7 step 200/1372 loss 0.957 speed 517x realtime
+epoch 7 step 300/1372 loss 0.947 speed 542x realtime
+epoch 7 step 400/1372 loss 0.951 speed 530x realtime
+epoch 7 step 500/1372 loss 0.949 speed 524x realtime
+epoch 7 step 600/1372 loss 0.952 speed 551x realtime
+epoch 7 step 700/1372 loss 0.951 speed 567x realtime
+epoch 7 step 800/1372 loss 0.950 speed 562x realtime
+epoch 7 step 900/1372 loss 0.952 speed 571x realtime
+epoch 7 step 1000/1372 loss 0.951 speed 585x realtime
+epoch 7 step 1100/1372 loss 0.950 speed 585x realtime
+epoch 7 step 1200/1372 loss 0.949 speed 587x realtime
+epoch 7 step 1300/1372 loss 0.947 speed 584x realtime
+epoch 7 step 1400/1372 loss 0.945 speed 576x realtime
+{'epoch': 7, 'loss': 0.9455, 'per_ur': 0.2267, 'per_en': 0.1768, 'minutes': 9.5, 'lr': 0.0013846304404783617}
+epoch 8 step 100/1372 loss 0.934 speed 426x realtime
+epoch 8 step 200/1372 loss 0.940 speed 472x realtime
+epoch 8 step 300/1372 loss 0.938 speed 461x realtime
+epoch 8 step 400/1372 loss 0.930 speed 438x realtime
+epoch 8 step 500/1372 loss 0.923 speed 438x realtime
+epoch 8 step 600/1372 loss 0.923 speed 441x realtime
+epoch 8 step 700/1372 loss 0.922 speed 445x realtime
+epoch 8 step 800/1372 loss 0.920 speed 441x realtime
+epoch 8 step 900/1372 loss 0.919 speed 434x realtime
+epoch 8 step 1000/1372 loss 0.917 speed 440x realtime
+epoch 8 step 1100/1372 loss 0.916 speed 445x realtime
+epoch 8 step 1200/1372 loss 0.916 speed 445x realtime
+epoch 8 step 1300/1372 loss 0.915 speed 440x realtime
+epoch 8 step 1400/1372 loss 0.913 speed 438x realtime
+{'epoch': 8, 'loss': 0.9122, 'per_ur': 0.2228, 'per_en': 0.1716, 'minutes': 12.4, 'lr': 0.0013303814393338211}
+epoch 9 step 100/1372 loss 0.873 speed 531x realtime
+epoch 9 step 200/1372 loss 0.884 speed 568x realtime
+epoch 9 step 300/1372 loss 0.878 speed 577x realtime
+epoch 9 step 400/1372 loss 0.884 speed 556x realtime
+epoch 9 step 500/1372 loss 0.884 speed 539x realtime
+epoch 9 step 600/1372 loss 0.887 speed 542x realtime
+epoch 9 step 700/1372 loss 0.884 speed 543x realtime
+epoch 9 step 800/1372 loss 0.885 speed 523x realtime
+epoch 9 step 900/1372 loss 0.885 speed 513x realtime
+epoch 9 step 1000/1372 loss 0.887 speed 508x realtime
+epoch 9 step 1100/1372 loss 0.885 speed 511x realtime
+epoch 9 step 1200/1372 loss 0.883 speed 512x realtime
+epoch 9 step 1300/1372 loss 0.884 speed 518x realtime
+epoch 9 step 1400/1372 loss 0.883 speed 515x realtime
+{'epoch': 9, 'loss': 0.8832, 'per_ur': 0.2101, 'per_en': 0.1633, 'minutes': 10.5, 'lr': 0.001267284257866797}
+epoch 10 step 100/1372 loss 0.839 speed 526x realtime
+epoch 10 step 200/1372 loss 0.857 speed 488x realtime
+epoch 10 step 300/1372 loss 0.858 speed 491x realtime
+epoch 10 step 400/1372 loss 0.857 speed 498x realtime
+epoch 10 step 500/1372 loss 0.861 speed 506x realtime
+epoch 10 step 600/1372 loss 0.864 speed 502x realtime
+epoch 10 step 700/1372 loss 0.861 speed 495x realtime
+epoch 10 step 800/1372 loss 0.861 speed 472x realtime
+epoch 10 step 900/1372 loss 0.862 speed 484x realtime
+epoch 10 step 1000/1372 loss 0.860 speed 489x realtime
+epoch 10 step 1100/1372 loss 0.860 speed 495x realtime
+epoch 10 step 1200/1372 loss 0.858 speed 508x realtime
+epoch 10 step 1300/1372 loss 0.859 speed 513x realtime
+epoch 10 step 1400/1372 loss 0.858 speed 521x realtime
+{'epoch': 10, 'loss': 0.857, 'per_ur': 0.2065, 'per_en': 0.1554, 'minutes': 10.4, 'lr': 0.0011962699846009678}
+epoch 11 step 100/1372 loss 0.830 speed 543x realtime
+epoch 11 step 200/1372 loss 0.840 speed 598x realtime
+epoch 11 step 300/1372 loss 0.840 speed 609x realtime
+epoch 11 step 400/1372 loss 0.839 speed 629x realtime
+epoch 11 step 500/1372 loss 0.838 speed 625x realtime
+epoch 11 step 600/1372 loss 0.834 speed 629x realtime
+epoch 11 step 700/1372 loss 0.833 speed 609x realtime
+epoch 11 step 800/1372 loss 0.832 speed 606x realtime
+epoch 11 step 900/1372 loss 0.832 speed 616x realtime
+epoch 11 step 1000/1372 loss 0.834 speed 626x realtime
+epoch 11 step 1100/1372 loss 0.833 speed 632x realtime
+epoch 11 step 1200/1372 loss 0.833 speed 634x realtime
+epoch 11 step 1300/1372 loss 0.834 speed 636x realtime
+epoch 11 step 1400/1372 loss 0.832 speed 635x realtime
+{'epoch': 11, 'loss': 0.8316, 'per_ur': 0.2025, 'per_en': 0.1446, 'minutes': 8.7, 'lr': 0.0011184255070118049}
+epoch 12 step 100/1372 loss 0.814 speed 770x realtime
+epoch 12 step 200/1372 loss 0.805 speed 647x realtime
+epoch 12 step 300/1372 loss 0.812 speed 666x realtime
+epoch 12 step 400/1372 loss 0.816 speed 644x realtime
+epoch 12 step 500/1372 loss 0.817 speed 630x realtime
+epoch 12 step 600/1372 loss 0.811 speed 627x realtime
+epoch 12 step 700/1372 loss 0.810 speed 588x realtime
+epoch 12 step 800/1372 loss 0.811 speed 606x realtime
+epoch 12 step 900/1372 loss 0.811 speed 606x realtime
+epoch 12 step 1000/1372 loss 0.810 speed 605x realtime
+epoch 12 step 1100/1372 loss 0.811 speed 606x realtime
+epoch 12 step 1200/1372 loss 0.809 speed 616x realtime
+epoch 12 step 1300/1372 loss 0.810 speed 620x realtime
+epoch 12 step 1400/1372 loss 0.810 speed 610x realtime
+{'epoch': 12, 'loss': 0.8092, 'per_ur': 0.1937, 'per_en': 0.1438, 'minutes': 9.0, 'lr': 0.0010349422502007018}
+epoch 13 step 100/1372 loss 0.769 speed 468x realtime
+epoch 13 step 200/1372 loss 0.772 speed 469x realtime
+epoch 13 step 300/1372 loss 0.780 speed 31x realtime
+epoch 13 step 400/1372 loss 0.787 speed 12x realtime
+epoch 13 step 500/1372 loss 0.795 speed 6x realtime
+epoch 13 step 600/1372 loss 0.793 speed 5x realtime
+epoch 13 step 700/1372 loss 0.793 speed 5x realtime
+epoch 13 step 800/1372 loss 0.793 speed 6x realtime
+epoch 13 step 900/1372 loss 0.793 speed 7x realtime
+epoch 13 step 1000/1372 loss 0.793 speed 7x realtime
+epoch 13 step 1100/1372 loss 0.792 speed 8x realtime
+epoch 13 step 1200/1372 loss 0.791 speed 8x realtime
+epoch 13 step 1300/1372 loss 0.791 speed 9x realtime
+epoch 13 step 1400/1372 loss 0.791 speed 10x realtime
+{'epoch': 13, 'loss': 0.7908, 'per_ur': 0.1897, 'per_en': 0.1384, 'minutes': 562.0, 'lr': 0.0009470979418985306}
+epoch 14 step 100/1372 loss 0.767 speed 24x realtime
+epoch 14 step 200/1372 loss 0.771 speed 43x realtime
+epoch 14 step 300/1372 loss 0.774 speed 61x realtime
+epoch 14 step 400/1372 loss 0.774 speed 75x realtime
+epoch 14 step 500/1372 loss 0.777 speed 57x realtime
+epoch 14 step 600/1372 loss 0.779 speed 64x realtime
+epoch 14 step 700/1372 loss 0.776 speed 71x realtime
+epoch 14 step 800/1372 loss 0.777 speed 56x realtime
+epoch 14 step 900/1372 loss 0.776 speed 38x realtime
+epoch 14 step 1000/1372 loss 0.776 speed 41x realtime
+epoch 14 step 1100/1372 loss 0.775 speed 37x realtime
+epoch 14 step 1200/1372 loss 0.775 speed 39x realtime
+epoch 14 step 1300/1372 loss 0.773 speed 42x realtime
+epoch 14 step 1400/1372 loss 0.771 speed 38x realtime
+{'epoch': 14, 'loss': 0.7708, 'per_ur': 0.1873, 'per_en': 0.138, 'minutes': 138.8, 'lr': 0.0008562370565904077}
+epoch 15 step 100/1372 loss 0.754 speed 287x realtime
+epoch 15 step 200/1372 loss 0.757 speed 48x realtime
+epoch 15 step 300/1372 loss 0.755 speed 67x realtime
+epoch 15 step 400/1372 loss 0.753 speed 84x realtime
+epoch 15 step 500/1372 loss 0.753 speed 27x realtime
+epoch 15 step 600/1372 loss 0.754 speed 29x realtime
+epoch 15 step 700/1372 loss 0.756 speed 33x realtime
+epoch 15 step 800/1372 loss 0.755 speed 37x realtime
+epoch 15 step 900/1372 loss 0.754 speed 41x realtime
+epoch 15 step 1000/1372 loss 0.755 speed 45x realtime
+epoch 15 step 1100/1372 loss 0.754 speed 50x realtime
+epoch 15 step 1200/1372 loss 0.752 speed 54x realtime
+epoch 15 step 1300/1372 loss 0.752 speed 58x realtime
+epoch 15 step 1400/1372 loss 0.753 speed 62x realtime
+{'epoch': 15, 'loss': 0.7531, 'per_ur': 0.1828, 'per_en': 0.1323, 'minutes': 85.8, 'lr': 0.0007637502380682072}
+epoch 16 step 100/1372 loss 0.721 speed 389x realtime
+epoch 16 step 200/1372 loss 0.731 speed 520x realtime
+epoch 16 step 300/1372 loss 0.729 speed 594x realtime
+epoch 16 step 400/1372 loss 0.731 speed 604x realtime
+epoch 16 step 500/1372 loss 0.734 speed 624x realtime
+epoch 16 step 600/1372 loss 0.736 speed 590x realtime
+epoch 16 step 700/1372 loss 0.735 speed 592x realtime
+epoch 16 step 800/1372 loss 0.736 speed 591x realtime
+epoch 16 step 900/1372 loss 0.738 speed 554x realtime
+epoch 16 step 1000/1372 loss 0.738 speed 560x realtime
+epoch 16 step 1100/1372 loss 0.738 speed 573x realtime
+epoch 16 step 1200/1372 loss 0.739 speed 566x realtime
+epoch 16 step 1300/1372 loss 0.738 speed 577x realtime
+epoch 16 step 1400/1372 loss 0.736 speed 580x realtime
+{'epoch': 16, 'loss': 0.7369, 'per_ur': 0.181, 'per_en': 0.13, 'minutes': 9.5, 'lr': 0.0006709884049501802}
+epoch 17 step 100/1372 loss 0.733 speed 580x realtime
+epoch 17 step 200/1372 loss 0.727 speed 625x realtime
+epoch 17 step 300/1372 loss 0.719 speed 641x realtime
+epoch 17 step 400/1372 loss 0.719 speed 616x realtime
+epoch 17 step 500/1372 loss 0.719 speed 644x realtime
+epoch 17 step 600/1372 loss 0.719 speed 630x realtime
+epoch 17 step 700/1372 loss 0.718 speed 633x realtime
+epoch 17 step 800/1372 loss 0.718 speed 649x realtime
+epoch 17 step 900/1372 loss 0.719 speed 636x realtime
+epoch 17 step 1000/1372 loss 0.722 speed 636x realtime
+epoch 17 step 1100/1372 loss 0.721 speed 643x realtime
+epoch 17 step 1200/1372 loss 0.720 speed 648x realtime
+epoch 17 step 1300/1372 loss 0.720 speed 645x realtime
+epoch 17 step 1400/1372 loss 0.721 speed 645x realtime
+{'epoch': 17, 'loss': 0.7208, 'per_ur': 0.1759, 'per_en': 0.1259, 'minutes': 8.4, 'lr': 0.0005795008666307092}
+epoch 18 step 100/1372 loss 0.712 speed 701x realtime
+epoch 18 step 200/1372 loss 0.709 speed 677x realtime
+epoch 18 step 300/1372 loss 0.713 speed 664x realtime
+epoch 18 step 400/1372 loss 0.714 speed 665x realtime
+epoch 18 step 500/1372 loss 0.709 speed 642x realtime
+epoch 18 step 600/1372 loss 0.708 speed 653x realtime
+epoch 18 step 700/1372 loss 0.707 speed 629x realtime
+epoch 18 step 800/1372 loss 0.706 speed 643x realtime
+epoch 18 step 900/1372 loss 0.707 speed 640x realtime
+epoch 18 step 1000/1372 loss 0.707 speed 627x realtime
+epoch 18 step 1100/1372 loss 0.709 speed 629x realtime
+epoch 18 step 1200/1372 loss 0.708 speed 636x realtime
+epoch 18 step 1300/1372 loss 0.706 speed 641x realtime
+epoch 18 step 1400/1372 loss 0.707 speed 649x realtime
+{'epoch': 18, 'loss': 0.7061, 'per_ur': 0.1742, 'per_en': 0.121, 'minutes': 8.4, 'lr': 0.000490622897131387}
+epoch 19 step 100/1372 loss 0.701 speed 564x realtime
+epoch 19 step 200/1372 loss 0.692 speed 624x realtime
+epoch 19 step 300/1372 loss 0.697 speed 657x realtime
+epoch 19 step 400/1372 loss 0.691 speed 677x realtime
+epoch 19 step 500/1372 loss 0.692 speed 629x realtime
+epoch 19 step 600/1372 loss 0.691 speed 644x realtime
+epoch 19 step 700/1372 loss 0.692 speed 631x realtime
+epoch 19 step 800/1372 loss 0.692 speed 630x realtime
+epoch 19 step 900/1372 loss 0.688 speed 623x realtime
+epoch 19 step 1000/1372 loss 0.690 speed 622x realtime
+epoch 19 step 1100/1372 loss 0.689 speed 607x realtime
+epoch 19 step 1200/1372 loss 0.688 speed 619x realtime
+epoch 19 step 1300/1372 loss 0.689 speed 622x realtime
+epoch 19 step 1400/1372 loss 0.690 speed 600x realtime
+{'epoch': 19, 'loss': 0.6897, 'per_ur': 0.1729, 'per_en': 0.1245, 'minutes': 9.1, 'lr': 0.00040571479132606945}
+epoch 20 step 100/1372 loss 0.676 speed 550x realtime
+epoch 20 step 200/1372 loss 0.687 speed 505x realtime
+epoch 20 step 300/1372 loss 0.685 speed 540x realtime
+epoch 20 step 400/1372 loss 0.681 speed 546x realtime
+epoch 20 step 500/1372 loss 0.679 speed 553x realtime
+epoch 20 step 600/1372 loss 0.683 speed 554x realtime
+epoch 20 step 700/1372 loss 0.681 speed 569x realtime
+epoch 20 step 800/1372 loss 0.684 speed 576x realtime
+epoch 20 step 900/1372 loss 0.684 speed 575x realtime
+epoch 20 step 1000/1372 loss 0.682 speed 582x realtime
+epoch 20 step 1100/1372 loss 0.683 speed 581x realtime
+epoch 20 step 1200/1372 loss 0.682 speed 571x realtime
+epoch 20 step 1300/1372 loss 0.682 speed 577x realtime
+epoch 20 step 1400/1372 loss 0.681 speed 576x realtime
+{'epoch': 20, 'loss': 0.6808, 'per_ur': 0.1682, 'per_en': 0.1189, 'minutes': 9.4, 'lr': 0.00032607608454084764}
+epoch 21 step 100/1372 loss 0.680 speed 590x realtime
+epoch 21 step 200/1372 loss 0.668 speed 535x realtime
+epoch 21 step 300/1372 loss 0.675 speed 567x realtime
+epoch 21 step 400/1372 loss 0.672 speed 565x realtime
+epoch 21 step 500/1372 loss 0.674 speed 555x realtime
+epoch 21 step 600/1372 loss 0.671 speed 571x realtime
+epoch 21 step 700/1372 loss 0.669 speed 583x realtime
+epoch 21 step 800/1372 loss 0.668 speed 586x realtime
+epoch 21 step 900/1372 loss 0.669 speed 600x realtime
+epoch 21 step 1000/1372 loss 0.670 speed 598x realtime
+epoch 21 step 1100/1372 loss 0.669 speed 612x realtime
+epoch 21 step 1200/1372 loss 0.670 speed 601x realtime
+epoch 21 step 1300/1372 loss 0.668 speed 600x realtime
+epoch 21 step 1400/1372 loss 0.668 speed 607x realtime
+{'epoch': 21, 'loss': 0.6683, 'per_ur': 0.1677, 'per_en': 0.114, 'minutes': 9.0, 'lr': 0.000252925662909268}
+epoch 22 step 100/1372 loss 0.653 speed 842x realtime
+epoch 22 step 200/1372 loss 0.657 speed 733x realtime
+epoch 22 step 300/1372 loss 0.657 speed 716x realtime
+epoch 22 step 400/1372 loss 0.662 speed 689x realtime
+epoch 22 step 500/1372 loss 0.659 speed 698x realtime
+epoch 22 step 600/1372 loss 0.660 speed 689x realtime
+epoch 22 step 700/1372 loss 0.659 speed 695x realtime
+epoch 22 step 800/1372 loss 0.658 speed 699x realtime
+epoch 22 step 900/1372 loss 0.656 speed 696x realtime
+epoch 22 step 1000/1372 loss 0.657 speed 703x realtime
+epoch 22 step 1100/1372 loss 0.658 speed 698x realtime
+epoch 22 step 1200/1372 loss 0.657 speed 688x realtime
+epoch 22 step 1300/1372 loss 0.657 speed 690x realtime
+epoch 22 step 1400/1372 loss 0.658 speed 671x realtime
+{'epoch': 22, 'loss': 0.6579, 'per_ur': 0.1656, 'per_en': 0.1143, 'minutes': 8.1, 'lr': 0.00018734014746289067}
+epoch 23 step 100/1372 loss 0.663 speed 632x realtime
+epoch 23 step 200/1372 loss 0.650 speed 649x realtime
+epoch 23 step 300/1372 loss 0.650 speed 603x realtime
+epoch 23 step 400/1372 loss 0.650 speed 598x realtime
+epoch 23 step 500/1372 loss 0.652 speed 612x realtime
+epoch 23 step 600/1372 loss 0.651 speed 621x realtime
+epoch 23 step 700/1372 loss 0.651 speed 635x realtime
+epoch 23 step 800/1372 loss 0.650 speed 629x realtime
+epoch 23 step 900/1372 loss 0.650 speed 625x realtime
+epoch 23 step 1000/1372 loss 0.650 speed 631x realtime
+epoch 23 step 1100/1372 loss 0.649 speed 626x realtime
+epoch 23 step 1200/1372 loss 0.650 speed 639x realtime
+epoch 23 step 1300/1372 loss 0.650 speed 646x realtime
+epoch 23 step 1400/1372 loss 0.649 speed 646x realtime
+{'epoch': 23, 'loss': 0.6493, 'per_ur': 0.164, 'per_en': 0.1124, 'minutes': 8.4, 'lr': 0.00013041494836989607}
+epoch 24 step 100/1372 loss 0.645 speed 723x realtime
+epoch 24 step 200/1372 loss 0.639 speed 739x realtime
+epoch 24 step 300/1372 loss 0.638 speed 714x realtime
+epoch 24 step 400/1372 loss 0.640 speed 704x realtime
+epoch 24 step 500/1372 loss 0.642 speed 698x realtime
+epoch 24 step 600/1372 loss 0.640 speed 630x realtime
+epoch 24 step 700/1372 loss 0.638 speed 626x realtime
+epoch 24 step 800/1372 loss 0.637 speed 234x realtime
+epoch 24 step 900/1372 loss 0.638 speed 162x realtime
+epoch 24 step 1000/1372 loss 0.638 speed 54x realtime
+epoch 24 step 1100/1372 loss 0.638 speed 43x realtime
+epoch 24 step 1200/1372 loss 0.640 speed 38x realtime
+epoch 24 step 1300/1372 loss 0.640 speed 37x realtime
+epoch 24 step 1400/1372 loss 0.642 speed 39x realtime
+{'epoch': 24, 'loss': 0.6417, 'per_ur': 0.1625, 'per_en': 0.1111, 'minutes': 135.3, 'lr': 8.294296590360567e-05}
+epoch 25 step 100/1372 loss 0.636 speed 935x realtime
+epoch 25 step 200/1372 loss 0.645 speed 888x realtime
+epoch 25 step 300/1372 loss 0.638 speed 908x realtime
+epoch 25 step 400/1372 loss 0.635 speed 839x realtime
+epoch 25 step 500/1372 loss 0.638 speed 742x realtime
+epoch 25 step 600/1372 loss 0.640 speed 706x realtime
+epoch 25 step 700/1372 loss 0.637 speed 657x realtime
+epoch 25 step 800/1372 loss 0.638 speed 656x realtime
+epoch 25 step 900/1372 loss 0.635 speed 662x realtime
+epoch 25 step 1000/1372 loss 0.635 speed 673x realtime
+epoch 25 step 1100/1372 loss 0.634 speed 690x realtime
+epoch 25 step 1200/1372 loss 0.635 speed 697x realtime
+epoch 25 step 1300/1372 loss 0.635 speed 704x realtime
+epoch 25 step 1400/1372 loss 0.636 speed 712x realtime
+{'epoch': 25, 'loss': 0.637, 'per_ur': 0.162, 'per_en': 0.1106, 'minutes': 7.7, 'lr': 4.571707775878627e-05}
+epoch 26 step 100/1372 loss 0.619 speed 530x realtime
+epoch 26 step 200/1372 loss 0.623 speed 606x realtime
+epoch 26 step 300/1372 loss 0.625 speed 533x realtime
+epoch 26 step 400/1372 loss 0.623 speed 576x realtime
+epoch 26 step 500/1372 loss 0.627 speed 588x realtime
+epoch 26 step 600/1372 loss 0.630 speed 606x realtime
+epoch 26 step 700/1372 loss 0.632 speed 582x realtime
+epoch 26 step 800/1372 loss 0.634 speed 576x realtime
+epoch 26 step 900/1372 loss 0.632 speed 579x realtime
+epoch 26 step 1000/1372 loss 0.634 speed 590x realtime
+epoch 26 step 1100/1372 loss 0.632 speed 595x realtime
+epoch 26 step 1200/1372 loss 0.634 speed 609x realtime
+epoch 26 step 1300/1372 loss 0.634 speed 597x realtime
+epoch 26 step 1400/1372 loss 0.632 speed 603x realtime
+{'epoch': 26, 'loss': 0.6321, 'per_ur': 0.1622, 'per_en': 0.1095, 'minutes': 9.0, 'lr': 1.9270424728696878e-05}
+epoch 27 step 100/1372 loss 0.635 speed 803x realtime
+epoch 27 step 200/1372 loss 0.632 speed 740x realtime
+epoch 27 step 300/1372 loss 0.634 speed 783x realtime
+epoch 27 step 400/1372 loss 0.635 speed 711x realtime
+epoch 27 step 500/1372 loss 0.631 speed 703x realtime
+epoch 27 step 600/1372 loss 0.633 speed 684x realtime
+epoch 27 step 700/1372 loss 0.632 speed 684x realtime
+epoch 27 step 800/1372 loss 0.633 speed 684x realtime
+epoch 27 step 900/1372 loss 0.632 speed 649x realtime
+epoch 27 step 1000/1372 loss 0.631 speed 626x realtime
+epoch 27 step 1100/1372 loss 0.631 speed 603x realtime
+epoch 27 step 1200/1372 loss 0.630 speed 578x realtime
+epoch 27 step 1300/1372 loss 0.630 speed 582x realtime
+epoch 27 step 1400/1372 loss 0.631 speed 577x realtime
+{'epoch': 27, 'loss': 0.6311, 'per_ur': 0.1615, 'per_en': 0.1097, 'minutes': 9.4, 'lr': 4.00777806036415e-06}
+epoch 28 step 100/1372 loss 0.629 speed 829x realtime
+epoch 28 step 200/1372 loss 0.634 speed 840x realtime
+epoch 28 step 300/1372 loss 0.626 speed 852x realtime
+epoch 28 step 400/1372 loss 0.630 speed 838x realtime
+epoch 28 step 500/1372 loss 0.632 speed 817x realtime
+epoch 28 step 600/1372 loss 0.633 speed 802x realtime
+epoch 28 step 700/1372 loss 0.633 speed 777x realtime
+epoch 28 step 800/1372 loss 0.631 speed 772x realtime
+epoch 28 step 900/1372 loss 0.631 speed 736x realtime
+epoch 28 step 1000/1372 loss 0.631 speed 651x realtime
+epoch 28 step 1100/1372 loss 0.631 speed 661x realtime
+Traceback (most recent call last):
+  File "/Users/hassanahmed/hijab/src/train.py", line 200, in <module>
+    model.train()
+^^^^^^
+  File "/Users/hassanahmed/hijab/src/train.py", line 175, in main
+    print(f"train clips {len(train_rows)} ({hours:.1f} h), val urdu {len(val_ur)}, val english {len(val_en)}, device {device}", flush=True)
+            ^^^^^^^^^^^^
+  File "/Users/hassanahmed/hijab/.venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py", line 282, in step
+    self._update_lr(epoch)
+  File "/Users/hassanahmed/hijab/.venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py", line 288, in _update_lr
+    values = self.get_lr()
+             ^^^^^^^^^^^^^
+  File "/Users/hassanahmed/hijab/.venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py", line 2577, in get_lr
+    raise ValueError(
+ValueError: Tried to step 41211 times. The specified number of total steps is 41210

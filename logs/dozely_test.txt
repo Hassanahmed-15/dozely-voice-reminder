@@ -1,0 +1,100 @@
+
+English/English_01.m4a  [3.6s]
+  heard:  limaind mi trateik benadal etnain bi em
+  phones: l ɪ m a ɪ n d | m i | t r ə t ɛ ɪ k | b ɛ n ə d ə l | ɛ t n a ɪ n | b i | ɛ m
+  tablet: none close enough (nearest differs by 43%)
+
+English/English_02.m4a  [4.1s]
+  heard:  ai hav tikan mai glukalfeidz sdeblit
+  phones: a ɪ | h a v | t ɪ k ə n | m a ɪ | g l u k ə l f ɛ ɪ d z | s d ɛ b l ɪ t
+  tablet: none close enough (nearest differs by 38%)
+
+English/English_03.m4a  [3.1s]
+  heard:  snoz dis bi main den for denminits
+  phones: s n ɔ z | d ɪ s | b i | m a ɪ n | d ɛ n | f ɔ r | d ɛ n m ɪ n ɪ t s
+  tablet: none close enough (nearest differs by 38%)
+
+English/English_04.m4a  [3.4s]
+  heard:  gart mendizanz ai ha ta deit ta dei
+  phones: g a r t | m ɛ n d ɪ z ə n z | a ɪ | h a | t ə | d ɛ ɪ t | t ə | d ɛ ɪ
+  tablet: none close enough (nearest differs by 50%)
+
+English/English_05.m4a  [4.5s]
+  heard:  sedarimainarfor me vaitamandi dabilid ednain forti faif di e
+  phones: s ɛ d ə r i m a ɪ n ə r f ɔ r | m ɛ | v a ɪ t ə m ə n d i | d a b ɪ l ɪ d | ɛ d n a ɪ n | f ɔ r t i | f a ɪ f | d i | ɛ
+  tablet: Vitamin D (difference 20%)
+
+English/English_06.m4a  [3.3s]
+  heard:  ai haf tiin me brufin marke raz dan
+  phones: a ɪ | h a f | t ɪ ɪ n | m ɛ | b r u f ɪ n | m a r k ɛ | r a z | d ə n
+  tablet: Brufen (difference 17%)
+
+English/English_07.m4a  [2.2s]
+  heard:  dirit maisolft in jur maindart
+  phones: d ɪ r i t | m a ɪ s ɔ l f t | ɪ n | j u r | m a ɪ n d ə r t
+  tablet: Softin (difference 17%)
+
+English/English_08.m4a  [3.7s]
+  heard:  smuz main maid a sindar maindar forfarf tiin minit
+  phones: s m u z | m a ɪ n | m a ɪ d | ə | s ɪ n d ə r | m a ɪ n d ə r | f ɔ r f ə r f | t i ɪ n | m ɪ n ɪ t
+  tablet: none close enough (nearest differs by 40%)
+
+Urdu/Urdu_01.m4a  [2.6s]
+  heard:  ajski sairi medisanz vadou
+  phones: a ʤ s k i | s a ɪ r i | m ɛ d ɪ s ə n z | v ə d ɔ ʊ
+  tablet: none close enough (nearest differs by 43%)
+
+Urdu/Urdu_02.m4a  [3.7s]
+  heard:  rat das bajei maiti ka kar imaindar ag a du
+  phones: r a t | d ə s | b ə ʤ ɛ ɪ | m a ɪ t i | k a | k a r | ɪ m a ɪ n d ə r | ə g | a | d u
+  tablet: Risek (difference 33%)
+
+Urdu/Urdu_03.m4a  [2.7s]
+  heard:  jam meni apni da vai lehi i
+  phones: ʤ a m | m ɛ n ɪ | a p n i | d ə | v a ɪ | l ɛ h i | ɪ
+  tablet: none close enough (nearest differs by 50%)
+
+Urdu/Urdu_04.m4a  [2.4s]
+  heard:  nipan andal or redi leilia
+  phones: n ɪ p ə n | ə n d ə l | ɔ r | r ɛ d i | l ɛ ɪ l i ə
+  tablet: none close enough (nearest differs by 43%)
+
+Urdu/Urdu_05.m4a  [9.0s]
+  heard:  suban aisht dis ap el ma a  az dat davisid olar rr sai praig gled tjuan ou mujeri maind kalana
+  phones: s ʊ b ə n | a ɪ ʃ t | d ɪ s | ə p | ɛ l | m a | a | | a z | d ə t | d a v ɪ s ɪ d | ɔ l a r | r r | s a ɪ | p r a ɪ g | g l ɛ d | t j u ə n | ɔ ʊ | m ʊ ʤ ɛ r i | m a ɪ n d | k ə l ə n ə
+  tablet: Arinac (difference 33%)
+
+Urdu/Urdu_06.m4a  [2.8s]
+  heard:  me ne aj kol gonsi davaja leni he
+  phones: m ɛ | n ɛ | a ʤ | k ɔ l | g ɔ n s i | d ə v a j a | l ɛ n i | h ɛ
+  tablet: none close enough (nearest differs by 43%)
+
+Urdu/Urdu_07.m4a  [3.8s]
+  heard:  duper do baje mujhe agmantan lena jad dalvana
+  phones: d u p ɛ r | d ɔ | b ə ʤ ɛ | m ʊ ʤ h ɛ | a g m ə n t ə n | l ɛ n a | j a d | d ə l v a n a
+  tablet: Augmentin (difference 12%)
+
+Urdu/Urdu_08.m4a  [3.7s]
+  heard:  pani sham ko chhevjip pana dor kan
+  phones: p ə n ɪ | ʃ a m | k ɔ | ʧ h ɛ v ʤ ɪ p | p a n a | d ɔ r | k ə n
+  tablet: Panadol (difference 29%)
+
+Urdu/Urdu_09.m4a  [4.6s]
+  heard:  aj rat das baje maipaka karimandar laga do
+  phones: a ʤ | r a t | d ə s | b ə ʤ ɛ | m a i p ə k a | k a r i m a n d ə r | l ə g a | d ɔ
+  tablet: none close enough (nearest differs by 50%)
+
+Urdu/Urdu_10.m4a  [4.0s]
+  heard:  kja me n aj ki sari advajat khali he
+  phones: k j a | m ɛ | n | a ʤ | k i | s a r i | a d v a j a t | k h a l i | h ɛ
+  tablet: none close enough (nearest differs by 50%)
+
+Urdu/Urdu_11.m4a  [4.7s]
+  heard:  af ji diks kanimaiindar aj rat jan an badek a lukado
+  phones: a f | j ɪ | d ɪ k s | k a n ɪ m a ɪ ɪ n d ə r | a ʤ | r a t | j a n | a n | b ə d ɛ k | a | l ʊ k a d ɔ
+  tablet: none close enough (nearest differs by 43%)
+
+Urdu/Urdu_12.m4a  [5.3s]
+  heard:  deijat kero o na mene dispurin ka niaji sou bat dast wad di
+  phones: d ɛ ɪ j a t | k ɛ r ɔ | ɔ | n a | m ɛ n ɛ | d ɪ s p ʊ r i n | k a | n i ə ʤ i | s ɔ ʊ | b ə t | d ə s t | w ə d | d i
+  tablet: Disprin (difference 29%)

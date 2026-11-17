@@ -1,0 +1,25 @@
+settings chosen on the tuning half: tablet bonus 4.0, time bonus 2.0
+
+scored once on the reporting half:
+all held-out commands              n= 506  tablet  99.6% (before:  87.4%)  time 100.0%  period 100.0%  all three  99.6%
+  voice Daniel                     n=  15  tablet 100.0% (before:  40.0%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Eddy (English (UK))        n=  12  tablet 100.0% (before:  91.7%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Flo (English (US))         n=   4  tablet 100.0% (before: 100.0%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Fred                       n=   9  tablet  88.9% (before:  44.4%)  time 100.0%  period 100.0%  all three  88.9%
+  voice Junior                     n=   9  tablet 100.0% (before:  44.4%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Karen                      n=   8  tablet 100.0% (before:  50.0%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Kathy                      n=   6  tablet 100.0% (before:  50.0%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Lekha                      n= 136  tablet 100.0% (before:  94.1%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Moira                      n=   7  tablet 100.0% (before:  57.1%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Ralph                      n=   9  tablet  88.9% (before:  22.2%)  time 100.0%  period 100.0%  all three  88.9%
+  voice Reed (English (UK))        n=  13  tablet 100.0% (before:  84.6%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Rishi                      n= 107  tablet 100.0% (before:  96.3%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Samantha                   n=  12  tablet 100.0% (before:  91.7%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Sandy (English (US))       n=   6  tablet 100.0% (before: 100.0%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Shelley (English (UK))     n=   9  tablet 100.0% (before:  55.6%)  time 100.0%  period 100.0%  all three 100.0%
+  voice Tessa                      n=   7  tablet 100.0% (before:  28.6%)  time 100.0%  period 100.0%  all three 100.0%
+  voice ur                         n= 137  tablet 100.0% (before:  97.8%)  time 100.0%  period 100.0%  all three 100.0%
+  tablet names never trained on    n= 411  tablet  99.5% (before:  84.7%)  time 100.0%  period 100.0%  all three  99.5%
+  tablet names seen in training    n=  95  tablet 100.0% (before:  98.9%)  time 100.0%  period 100.0%  all three 100.0%
+
+most common tablet mistakes (said -> picked): [(('Nuberol', 'Omeprazole'), 2)]

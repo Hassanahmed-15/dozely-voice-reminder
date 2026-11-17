@@ -1,0 +1,11 @@
+got README.md 0 MB
+got train-00000-of-00003.parquet 459 MB
+got train-00001-of-00003.parquet 450 MB
+got train-00002-of-00003.parquet 422 MB
+got validation-00000-of-00001.parquet 133 MB
+got test-00000-of-00001.parquet 139 MB
+librispeech 2000 clips 0.47 GB 305s
+librispeech 4000 clips 0.96 GB 729s
+librispeech 6000 clips 1.43 GB 1118s
+librispeech 8000 clips 1.89 GB 1411s
+librispeech done: 8451 clips, 2.00 GB

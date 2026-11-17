@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dozely Voice Reminders</title>
+<meta name="description" content="Test page for the Dozely Urdu and English voice medicine reminder model. The speech model runs in your browser.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='6' y='22' width='52' height='20' rx='10' fill='%230f766e'/><rect x='32' y='22' width='26' height='20' rx='10' fill='%2399f6e4'/></svg>">
+<style>
+:root {
+  --bg: #f6f7f5; --surface: #ffffff; --surface-2: #eef2ef; --text: #17201c; --muted: #5d6b65;
+  --line: #dfe5e1; --accent: #0f766e; --accent-ink: #ffffff; --accent-soft: #d5f1ec;
+  --warn: #9a5b00; --warn-soft: #fff1d6; --bad: #b42318; --ok: #157a3c; --shadow: 0 1px 2px rgb(0 0 0 / .06), 0 8px 24px rgb(0 0 0 / .05);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1412; --surface: #171e1b; --surface-2: #1f2824; --text: #e7eeea; --muted: #9aa9a2;
+    --line: #2b3631; --accent: #2dd4bf; --accent-ink: #062621; --accent-soft: #123a35;
+    --warn: #f5b74a; --warn-soft: #3a2c12; --bad: #f97066; --ok: #4ade80; --shadow: none; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1412; --surface: #171e1b; --surface-2: #1f2824; --text: #e7eeea; --muted: #9aa9a2;
+  --line: #2b3631; --accent: #2dd4bf; --accent-ink: #062621; --accent-soft: #123a35;
+  --warn: #f5b74a; --warn-soft: #3a2c12; --bad: #f97066; --ok: #4ade80; --shadow: none; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Nastaliq Urdu", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 24px 16px 64px; }
+header { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+header h1 { font-size: 1.35rem; margin: 0; letter-spacing: -0.01em; }
+header p { margin: 0; color: var(--muted); font-size: .9rem; }
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: .8rem; padding: 3px 10px; border-radius: 999px; background: var(--surface-2); color: var(--muted); }
+.pill.ready { background: var(--accent-soft); color: var(--accent); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px; margin-bottom: 16px; box-shadow: var(--shadow); }
+.card h2 { font-size: 1rem; margin: 0 0 12px; }
+.mic-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.mic { width: 84px; height: 84px; border-radius: 50%; border: 0; background: var(--accent); color: var(--accent-ink); cursor: pointer; display: grid; place-items: center; flex: none; transition: transform .12s; }
+.mic:disabled { opacity: .45; cursor: not-allowed; }
+.mic:active { transform: scale(.96); }
+.mic.recording { background: var(--bad); animation: pulse 1.2s infinite; }
+@keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgb(180 35 24 / .45); } 50% { box-shadow: 0 0 0 14px rgb(180 35 24 / 0); } }
+.mic svg { width: 34px; height: 34px; }
+.hint { color: var(--muted); font-size: .9rem; margin: 0; }
+.examples { margin-top: 10px; font-size: .85rem; color: var(--muted); }
+.examples span { display: inline-block; background: var(--surface-2); border-radius: 8px; padding: 2px 8px; margin: 3px 4px 0 0; cursor: pointer; }
+.divider { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: .8rem; margin: 16px 0; }
+.divider::before, .divider::after { content: ""; flex: 1; border-top: 1px solid var(--line); }
+textarea, input[type=text], input[type=time] { width: 100%; font: inherit; color: var(--text); background: var(--surface-2); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+textarea { resize: vertical; min-height: 56px; }
+textarea:focus, input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.row > * { min-width: 0; }
+button.btn { font: inherit; border: 1px solid var(--line); background: var(--surface-2); color: var(--text); border-radius: 10px; padding: 9px 14px; cursor: pointer; }
+button.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+button.btn.small { padding: 5px 10px; font-size: .85rem; }
+button.btn:disabled { opacity: .5; cursor: not-allowed; }
+label.file { font-size: .9rem; color: var(--accent); cursor: pointer; text-decoration: underline; }
+#status { min-height: 1.5em; margin: 10px 0 0; font-size: .9rem; color: var(--muted); }
+.confirm { display: none; border-color: var(--accent); }
+.confirm.show { display: block; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 480px) { .grid { grid-template-columns: 1fr; } }
+.field label { display: block; font-size: .8rem; color: var(--muted); margin-bottom: 4px; }
+.flag { font-size: .8rem; margin-top: 6px; }
+.flag.ok { color: var(--ok); }
+.flag.warn { color: var(--warn); }
+.ampm { display: none; gap: 8px; margin-top: 8px; }
+.ampm.show { display: flex; }
+details { margin-top: 12px; font-size: .85rem; color: var(--muted); }
+details code { font-size: .8rem; word-break: break-word; }
+.list { list-style: none; margin: 0; padding: 0; }
+.list li { display: flex; align-items: center; gap: 12px; padding: 12px 0; border-top: 1px solid var(--line); }
+.list li:first-child { border-top: 0; }
+.time-big { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.15rem; min-width: 84px; }
+.grow { flex: 1; min-width: 0; }
+.sub { color: var(--muted); font-size: .8rem; }
+.empty { color: var(--muted); font-size: .9rem; margin: 0; }
+.banner { background: var(--warn-soft); color: var(--warn); border-radius: 12px; padding: 10px 14px; font-size: .9rem; margin-bottom: 16px; display: none; cursor: pointer; }
+.banner.show { display: block; }
+.settings { display: flex; gap: 8px; flex-wrap: wrap; }
+.overlay { position: fixed; inset: 0; background: rgb(0 0 0 / .55); display: none; place-items: center; padding: 16px; z-index: 10; }
+.overlay.show { display: grid; }
+.alarm { background: var(--surface); border-radius: 20px; padding: 28px 22px; max-width: 380px; width: 100%; text-align: center; }
+.alarm .bell { font-size: 44px; animation: ring 0.9s infinite; display: inline-block; }
+@keyframes ring { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(14deg); } 75% { transform: rotate(-14deg); } }
+.alarm h3 { font-size: 1.6rem; margin: 8px 0 4px; }
+.alarm p { margin: 0 0 20px; color: var(--muted); }
+.alarm .row { justify-content: center; }
+.foot { color: var(--muted); font-size: .8rem; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="22" width="52" height="20" rx="10" fill="var(--accent)"/><rect x="32" y="22" width="26" height="20" rx="10" fill="var(--accent-soft)"/></svg>
+    <div>
+      <h1>Dozely voice reminders</h1>
+      <p>Say or type a tablet and a time, in Urdu, Roman Urdu or English. <span id="model-pill" class="pill">Loading model…</span></p>
+    </div>
+  </header>
+
+  <div id="sound-banner" class="banner show">Tap here once so the alarm can play sound.</div>
+
+  <section class="card">
+    <h2>Add a reminder</h2>
+    <div class="mic-row">
+      <button id="mic" class="mic" disabled aria-label="Start recording">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-2.08A7 7 0 0 0 19 12h-2Z"/></svg>
+      </button>
+      <div class="grow">
+        <p class="hint" id="mic-hint">Tap the mic, speak, then tap again to stop.</p>
+        <p class="hint">Or <label class="file">upload a recording<input id="file" type="file" accept="audio/*" hidden></label>.</p>
+      </div>
+    </div>
+    <div class="examples">Try: <span>Dopahar do baje Augmentin lena hai</span><span>Remind me to take Panadol at 9 pm</span><span>رات دس بجے بروفین</span></div>
+    <div class="divider">or type it</div>
+    <div class="row">
+      <textarea id="text" dir="auto" rows="2" placeholder="e.g. panadol raat 10 baje"></textarea>
+      <button id="parse" class="btn primary">Understand</button>
+    </div>
+    <p id="status" role="status"></p>
+  </section>
+
+  <section id="confirm" class="card confirm" aria-live="polite">
+    <h2>Is this right?</h2>
+    <div class="grid">
+      <div class="field">
+        <label for="c-tablet">Tablet</label>
+        <input id="c-tablet" type="text" list="tablet-list" dir="auto" autocomplete="off">
+        <datalist id="tablet-list"></datalist>
+        <div id="c-tablet-flag" class="flag"></div>
+      </div>
+      <div class="field">
+        <label for="c-time">Time</label>
+        <input id="c-time" type="time">
+        <div id="c-time-flag" class="flag"></div>
+        <div id="ampm" class="ampm"><button class="btn small" data-ap="am">AM</button><button class="btn small" data-ap="pm">PM</button></div>
+      </div>
+    </div>
+    <div class="row" style="margin-top:14px">
+      <button id="save" class="btn primary">Save reminder</button>
+      <button id="cancel" class="btn">Cancel</button>
+      <a id="download" class="sub" style="display:none" download>Download this recording</a>
+    </div>
+    <details id="details"><summary>What the model heard</summary><div id="details-body"></div></details>
+  </section>
+
+  <section class="card">
+    <div class="row" style="justify-content:space-between;margin-bottom:6px">
+      <h2 style="margin:0">Reminders</h2>
+      <div class="settings">
+        <button id="notify" class="btn small">Enable notifications</button>
+        <button id="wake" class="btn small">Keep screen on</button>
+      </div>
+    </div>
+    <ul id="list" class="list"></ul>
+    <p id="empty" class="empty">No reminders yet.</p>
+  </section>
+
+  <p class="foot">The speech model was trained from scratch and runs entirely in your browser, so recordings never leave this device. Alarms ring only while this page stays open. Reminders are saved in this browser.</p>
+</main>
+
+<div id="overlay" class="overlay" role="alertdialog" aria-labelledby="alarm-title">
+  <div class="alarm">
+    <div class="bell">⏰</div>
+    <h3 id="alarm-title">Panadol</h3>
+    <p id="alarm-sub">Time to take your tablet</p>
+    <div class="row">
+      <button id="taken" class="btn primary">Taken</button>
+      <button id="snooze" class="btn">Snooze 10 min</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/dist/ort.min.js"></script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

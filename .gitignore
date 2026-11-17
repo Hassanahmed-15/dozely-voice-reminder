@@ -1,0 +1,25 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Large or regenerable data: download and build it with the scripts in src/
+data/raw/
+data/features/
+data/export/
+
+# Real people's voice recordings are kept private
+data/test/
+Dozely_Dataset.zip
+*.m4a
+
+# Checkpoints: only the final best model is published
+checkpoints/*
+!checkpoints/model_best.pt
+
+# Local tooling
+web/.vercel/
+.vercel/
+.DS_Store
+src/compare_whisper.py
+logs/speedtest.jsonl
